@@ -1,6 +1,5 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import myImg from "../../Assets/v.png";
 import Logo from "../../Assets/logo.png";
 import Tilt from "react-parallax-tilt";
 import { ImPointRight } from "react-icons/im";
