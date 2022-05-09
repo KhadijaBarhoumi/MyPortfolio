@@ -58,7 +58,7 @@ function Techstack() {
       </Col>
       <Col xs={4} md={2} className="tech-icons">
       <DiGit/>
-      <h1 style={{color:"#B0B9A8" ,fontSize:"20px"}}> Github </h1>
+      <h1 style={{color:"#B0B9A8" ,fontSize:"20px"}}> Git </h1>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
       <TiCss3/>
@@ -83,6 +83,10 @@ function Techstack() {
       <Col xs={4} md={2} className="tech-icons">
       <SiAdobephotoshop/>
       <h1 style={{color:"#B0B9A8" ,fontSize:"20px"}}> Photoshop </h1>
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+      <SiPinterest/>
+      <h1 style={{color:"#B0B9A8" ,fontSize:"20px"}}> Pinterest </h1>
       </Col>
       <Col md={12} className="home-about-social">
             <h1>FIND ME ON</h1>

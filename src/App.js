@@ -8,6 +8,7 @@ import {
   Routes
 } from "react-router-dom";
 import ScrollToTop from "./Components/ScrollToTop";
+import Resume from "./Components/Resume/ResumeNew";
 import "./style.css";
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
@@ -30,6 +31,7 @@ function App() {
         <ScrollToTop />
         <Routes>
           <Route path="/" element={<Home />} />
+          <Route path="/resume" element={<Resume />} />
         </Routes>
         <Footer />
       </div>

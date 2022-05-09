@@ -2,8 +2,10 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import Logo from "../../Assets/logo.png";
 import Tilt from "react-parallax-tilt";
-import { ImPointRight } from "react-icons/im";
-import ResumeNew from "../Resume/ResumeNew";
+import { ImPointRight} from "react-icons/im";
+import { GrResume } from "react-icons/gr";
+import { Link } from "react-router-dom";
+
 
 
 function Home2() {
@@ -110,8 +112,19 @@ function Home2() {
             <img src={Logo} className="img-fluid" alt="avatar" />
           </Tilt>
         </Col>
-        <ResumeNew/>
         </Row>
+        <Col md={8} className="home-about-description2">
+        <h1 style={{ fontSize: "2.6em" }}>
+        Want to know
+        <span className="purple">  more</span>?
+        </h1>
+        <Link to="/resume" className="link" >
+        <h1 style={{ fontSize: "2.2em" }}>
+        See my resume&nbsp;
+        <GrResume style={{color:"white"}}/>
+        </h1>
+        </Link>
+        </Col> 
       </Container>
     </Container>
   );
