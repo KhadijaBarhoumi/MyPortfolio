@@ -3,6 +3,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import Logo from "../../Assets/logo.png";
 import Tilt from "react-parallax-tilt";
 import { ImPointRight } from "react-icons/im";
+import ResumeNew from "../Resume/ResumeNew";
 
 
 function Home2() {
@@ -109,6 +110,7 @@ function Home2() {
             <img src={Logo} className="img-fluid" alt="avatar" />
           </Tilt>
         </Col>
+        <ResumeNew/>
         </Row>
       </Container>
     </Container>
