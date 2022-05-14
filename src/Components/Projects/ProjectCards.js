@@ -12,12 +12,12 @@ function ProjectCards(props) {
    
       <Card.Img variant="top" src={props.imgPath} alt="card-img"  />
       <Card.Body>
-        <Card.Title style={{ color:"#606C5A"}}><h4>{props.title}</h4></Card.Title>
+        <Card.Title style={{ color:"#606C5A"}}><h3>{props.title}</h3></Card.Title>
         <Card.Text style={{ textAlign: "justify"  }}>
-        <h4>
+        <h3>
         <BsCodeSlash/>
           {props.description}
-          </h4>
+          </h3>
         </Card.Text>
         
         <Button variant="primary" href={props.link} target="_blank">
