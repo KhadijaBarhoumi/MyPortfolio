@@ -39,7 +39,7 @@ function Projects() {
           <ProjectCard
             imgPath={Movie}
             title="MovieApp"
-            description=" ReactJs - HTML - JS - CSS - Redux - react-router-dom"
+            description=" ReactJs - HTML - JS -  CSS  - Redux - React-router-dom"
             link="https://github.com/KhadijaBarhoumi/MovieApp"
           />
         </Col>
@@ -47,7 +47,7 @@ function Projects() {
           <ProjectCard
             imgPath={weather}
             title="WeatherApp"
-            description=" ReactJs - HTML - JS - CSS - Redux - react-router-dom - Node.js"
+            description=" ReactJs - HTML - JS -  CSS  - Redux - React-router-dom - Node.js"
             link="https://github.com/KhadijaBarhoumi/weather-app"
           />
         </Col>
@@ -55,19 +55,21 @@ function Projects() {
           <ProjectCard
             imgPath={EduLearn}
             title="EduLearn"
-            description=" ReactJs - HTML - JS - CSS -  Redux - React-router-dom -
+            description=" ReactJs - HTML - JS -  CSS  -  Redux - React-router-dom  -
         Node.js - Express.js - MongoDB "
-            link="https://github.com/KhadijaBarhoumi/Edu_learn_project"
+            link="https://github.com/KhadijaBarhoumi/EduLearn"
           />
         </Col>
         <Col md={4} className="project-card">
           <ProjectCard
             imgPath={fastColi}
             title="FastColi"
-            description=" JQuery
+            description=" PHP
+        - JQuery
         - HTML 
         - JS 
         - CSS"
+        link="https://github.com/KhadijaBarhoumi/Fast-Colis"
           />
         </Col>
       </Row>

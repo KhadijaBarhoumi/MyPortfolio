@@ -115,7 +115,7 @@ function Home2() {
         </Row>
         <Col md={8} className="home-about-description2">
         <h1 style={{ fontSize: "2.6em" }}>
-        Want to know
+        Do you Want to know
         <span className="purple">  more</span>?
         </h1>
         <Link to="/resume" className="link" >
